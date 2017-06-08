@@ -1,0 +1,74 @@
+<ion-view view-title="Paypal" cache-view="false">
+     <ion-content overflow-scroll="true" has-bouncing="true">	
+
+<!--        <form method="post" name="paypal_form" action="https://www.sandbox.paypal.com/cgi-bin/webscr" target="_blank" ng-submit="paynow()">
+            <input type="hidden" name="business" ng-model="paypal.business">
+            <input type="hidden" name="cmd"  ng-model="paypal.cmd">
+            <input type="hidden" name="notify_url" id="notify_url"  ng-model="paypal.notify_url">
+            <input type="hidden" name="cancel_return" id="cancel_return"   ng-model="paypal.cancel_return">
+            <input type="hidden" name="return" id="return"   ng-model="paypal.return">
+            <input type="hidden" name="currency_code"  ng-model="paypal.currency_code">
+            <input type="hidden" name="page_style"  ng-model="paypal.page_style">
+            <input type="hidden" name="no_shipping"  ng-model="paypal.no_shipping">
+            <input type="hidden" name="invoice" id="invoice"  ng-model="paypal.invoice">
+            <input type="hidden" name="upload" ng-model="paypal.upload">
+            <input type="hidden" name="item_name_1"  ng-model="paypal.item_name_1">
+            <input type="hidden" name="item_number_1" ng-model="paypal.item_number_1">
+            <input type="hidden" name="quantity_1"  ng-model="paypal.quantity_1">
+            <input type="hidden" name="amount_1" id="amount_1"  ng-model="paypal.amount_1">
+            <button type="submit"  class="button text-center blue-color" >
+            pay now
+            </button>
+            
+	</form>-->  
+<!--
+        <form method="post" name="paypal_form" action="https://www.sandbox.paypal.com/cgi-bin/webscr"  ng-submit="paynow()">
+            <input type="hidden" name="business" value="hitarthi@creolestudios.com" >
+            <input type="hidden" name="cmd" value="_cart" >
+            <input type="hidden" name="notify_url" id="notify_url" value="http://www.google.com" >
+            <input type="hidden" name="cancel_return" id="cancel_return"  value="http://www.google.com">
+            <input type="hidden" name="return" id="return"  value="http://www.google.com" >
+            <input type="hidden" name="currency_code" value="USD" >
+            <input type="hidden" name="page_style" value="paypal" >
+            <input type="hidden" name="no_shipping" value="1" >
+            <input type="hidden" name="invoice" id="invoice" value="55555" >
+            <input type="hidden" name="upload" value="1" >
+            <input type="hidden" name="item_name_1" value="b1g1app Amount Transfer">
+            <input type="hidden" name="item_number_1" value="1">
+            <input type="hidden" name="quantity_1" value="1" >
+            <input type="hidden" name="amount_1" id="amount_1" value="2">
+            <button type="submit"  class="button text-center blue-color" >
+                pay now
+            </button>
+            
+	</form>-->
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+                <button id="buyNowBtn" ng-click="paynow()"> Buy Now !</button>
+                <button id="buyInFutureBtn"> Pay in Future !</button>
+                <button id="profileSharingBtn"> Profile Sharing !</button>
+            </div>
+    </ion-content>
+    <div class="tabs-striped tabs-color-assertive">
+            <div class="tabs">
+                <a class="tab-item active" href="#/app/giveingstoriesfavourite">
+                    <span class="tab-title Avenir-Book">Business Giving</span>
+                </a>
+                <a class="tab-item" href="#/app/personalgiving">
+                    <span class="tab-title Avenir-Book">Personal Giving</span>
+                </a>
+
+            </div>
+    </div>
+</ion-view>
+<!--<ion-view title="payapl" cache-view="false">
+  <ion-content class=''>
+        <button type="submit"  ng-click="paynow()" class="button text-blue">
+                            Login
+        </button>
+     <iframe class="webPage"  ng-src="{{trustSrc(webviewlink.src)}}" width="{{dev_width}}" height="{{dev_height}}" allowfullscreen frameborder="0"> </iframe>
+    <iframe class='webPage' type="text/html" width="640" height="360" frameborder="0" allowfullscreen name="eventsPage" ng-src="{{getIframeSrc()}}">
+   </iframe> 
+  </ion-content>
+</ion-view>-->
